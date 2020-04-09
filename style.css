@@ -25,9 +25,9 @@ li:hover{
 }
 
 header{
-	background-color:#ff7315;
+	/* background-color:#ff7315; */
 	/* background-color: #c62828; */
-  /* background: transparent; */
+  background: transparent;
 	height: 75px;
 	width: 100%;
 	color:#ffffff;
@@ -122,7 +122,7 @@ li{
 
 #intro{
 	color: #eeeeee;
-	transform:translate(60px,20vh);
+	transform:translate(60px,40vh);
 	font-size: 5vh;
 	font-family:heylogo;
 }
@@ -133,7 +133,7 @@ li{
 	font-size: 20px;
 	border-style: solid;border-width: 2.5px;
 	color: #eeeeee;
-	transform:translate(60px,20vh);
+	transform:translate(60px,40vh);
 	font-family: heylogo;
 	text-decoration: none;
 	transition: 500ms;
