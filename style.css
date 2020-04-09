@@ -26,7 +26,8 @@ li:hover{
 
 header{
 	/*background-color:#ff7315;*/
-	background-color: #c62828;
+	/* background-color: #c62828; */
+  background: transparent;
 	height: 75px;
 	width: 100%;
 	color:#ffffff;
