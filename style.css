@@ -1,0 +1,348 @@
+@font-face {
+  font-family: heylogo;
+  src: url(font/Raleway-Light.ttf);
+}
+
+*{
+	margin-top: 0;
+	margin-right: 0;
+	margin-left:0;
+	margin-bottom: 0;
+}
+
+html,body{
+	height:100%;
+	background: #f4f4f4;
+	scroll-behavior: smooth;
+}
+
+nav{
+	vertical-align: middle;
+}
+
+li:hover{
+  color: #000000;
+}
+
+header{
+	/*background-color:#ff7315;*/
+	background-color: #c62828;
+	height: 75px;
+	width: 100%;
+	color:#ffffff;
+	text-align: right;
+	overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 200000;
+}
+
+footer{
+	height: 25%;
+	width: 100%;
+	background-color: #000000;
+	color:#eeeeee;
+	font-family: 'Lobster', cursive;
+}
+
+.ft{
+	transform: translate(50%,50%);
+}
+
+li{
+	/*background-color: #212121;*/
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 18px;
+}
+
+#hea1{
+	margin-right: 60px;
+	float: right;
+	font-family: heylogo;
+}
+
+
+
+#aboutdiv{
+	overflow: hidden;
+	width:100%;
+	height:100vh;
+	background-image: linear-gradient(#c62828 ,#ff7315);
+	/*background-color:#ff7315;*/
+	z-index: -1;
+}
+
+#resumediv{
+	overflow: hidden;
+	width:100%;
+	height: 200vh;
+	background-color:#3a3535;
+	z-index: 0;
+}
+
+#contactdiv{
+	overflow: hidden;
+	width:100%;
+	height: 100vh;
+	background-color:#232020;
+}
+
+#logoname{
+	font-size: 40px;
+	float: left;
+	margin-left: 45px;
+	color: #ffffff;
+	font-family:heylogo;
+	/*font-family: 'Satisfy', cursive;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Courgette', cursive;
+	font-family: 'Lobster Two', cursive;
+	font-family: 'Parisienne', cursive;
+	font-family: 'Tangerine', cursive;*/
+/*	font-family: 'Great Vibes', cursive;
+*/	/*font-family: 'Bad Script', cursive;
+	font-family: 'Petit Formal Script', cursive;
+	font-family: 'Lobster', cursive;*/
+	font-weight: bold;
+	z-index: 1;
+}
+
+#pnav{
+	transition: 250ms;
+}
+
+#cm{
+	color: #6e6e6e;
+	transform:translate(0px,40px);
+	text-align: center;
+}
+
+#intro{
+	color: #eeeeee;
+	transform:translate(60px,20vh);
+	font-size: 5vh;
+	font-family:heylogo;
+}
+
+#bintro{
+	background: transparent;
+	height: 45px;width: 120px;
+	font-size: 20px;
+	border-style: solid;border-width: 2.5px;
+	color: #eeeeee;
+	transform:translate(60px,20vh);
+	font-family: heylogo;
+	text-decoration: none;
+	transition: 500ms;
+}
+
+#bintro:hover{
+	background: transparent;
+	height: 45px;width: 120px;
+	font-size: 20px;
+	border-style: solid;border-width: 2.5px;border-radius: 25px;
+	color: #eeeeee;
+	transform:translate(60px,20vh);
+	font-family: heylogo;
+}
+
+
+form{
+  text-decoration: none;
+	transform:translate(10%,35%);
+	text-align: right;
+}
+
+#cname{
+	width:40vh;
+	height:5vh;
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: 1000;
+	font-family:heylogo;
+	vertical-align: middle;
+	color: #ffffff;
+	border-color:#ffffff;
+	border-width: 2px;
+	border-radius: 20px;
+	border-style: solid;
+	background: transparent;
+	transition: 500ms;
+}
+
+#cname:hover{
+	width:45vh;
+	height:5vh;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	text-align: left;
+	font-weight: 1000;
+	font-family: heylogo;
+	vertical-align: middle;
+	color: #ff7315;
+	border-style: solid;
+	border-color: #ff7315;
+	border-width: 2px;
+	border-radius: 15px;
+	background-color: transparent;
+}
+
+#cmail{
+	width:40vh;
+	height:5vh;
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: 1000;
+	font-family: heylogo;
+	vertical-align: middle;
+	color: #ffffff;
+	border-color:#ffffff;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	background: transparent;
+	transition: 500ms;
+}
+
+#cmail:hover{
+	width:45vh;
+	height:5vh;
+	margin-bottom: 15px;
+	text-align: left;
+	padding-left: 10px;
+	font-weight: 1000;
+	font-family: heylogo;
+	vertical-align: middle;
+	color: #ff7315;
+	border-color: #ff7315;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 15px;
+	background-color: transparent;
+}
+
+#ctext{
+	width:40vh;
+	height:5vh;
+	margin-bottom: 15px;
+	resize: none;
+	overflow: hidden;
+	font-family:heylogo;
+	font-weight: 1000;
+	text-align: center;
+	vertical-align: middle;
+	color: #ffffff;
+	border-color:#ffffff;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	background: transparent;
+	transition: 500ms;
+}
+
+#ctext:hover{
+	width:45vh;
+	height:10vh;
+  vertical-align: top;
+  text-align: left;
+  padding-left: 10px;
+	margin-bottom: 15px;
+	font-weight: 1000;
+	font-family: heylogo;
+	color: #ff7315;
+	border-color: #ff7315;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 15px;
+	background-color: transparent;
+}
+
+#csubmit{
+	width:20vh;
+	height:5vh;
+	margin-bottom: 15px;
+	margin-top: 50px;
+	text-align: center;
+	font-family:heylogo;
+	font-weight: 1000;
+	color: #eeeeee;
+	border-color:#ffffff;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	background: transparent;
+	transition: 350ms;
+}
+
+#csubmit:hover{
+	width:20vh;
+	height:5vh;
+	margin-bottom: 15px;
+	margin-top: 50px;
+	text-align: center;
+	font-family: heylogo;
+	font-weight: 1000;
+	border-style: solid;
+	border-color: #ff7315;
+	color: #ff7315;
+	background-color: transparent;
+}
+/*For Embeded Google Map*/
+#egmap{
+	height: 60vh;
+	width:70vh;
+	transform:translate(10%,30%);
+	vertical-align: middle;
+	border-radius: 5px;
+	z-index: 10;
+}
+img{
+	z-index:10;
+}
+
+.ft{
+	transform:translate(85vh,10vh);
+	font-family: heylogo;
+	font-size: 0.9rem;
+	color: #eeeeee;
+}
+
+#resumeid{
+	z-index: 1000;
+	border: none;
+	width: 100%;
+	height: 180vh;
+	transform: translate(0px,20vh);
+}
+
+.downloadrb{
+	width:30vh;
+	height:5vh;
+	text-align: center;
+	font-family:heylogo;
+	font-weight: 1000;
+	color: #ffffff;
+	border-color:#ffffff;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	background: transparent;
+	transition: 350ms;
+}
+
+.downloadrb:hover{
+	width:30vh;
+	height:5vh;
+	text-align: center;
+	font-family:heylogo;
+	font-weight: 1000;
+	color: #ffffff;
+	border-color:#ff7315;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 20px;
+	background: transparent;
+	transition: 350ms;
+}
